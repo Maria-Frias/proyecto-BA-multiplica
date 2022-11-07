@@ -1,0 +1,98 @@
+* {
+    margin: auto;
+}
+.banner-container-fluid {
+    display: flex;
+    background-image: url("./img/banner4.jpg");
+    opacity: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+.text-container {
+  margin: auto;
+}
+  .text-container > h1{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+}
+.text-container > h3{
+margin-top: 1vh;
+color: white;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.nav-links{
+    text-align: center;
+    margin-top: 20px;   
+    background: rgba(16, 57, 224, 0.8); 
+    background-size: cover;   
+    border-radius: 2px;
+}
+.nav-links> a {
+    display: inline-block;
+    color: rgb(245, 241, 241);
+    font-size: 3vh;
+    margin: 10px;
+   
+}
+.carousel-caption > a > h3{
+    color: white;
+    font-size: 4vh;
+line-height: 2vh;
+text-decoration: none;
+padding: 8px;
+}
+
+.linea{
+    height: 5px;
+    width: 25%;
+    background-color: rgb(79, 23, 135);
+    display: flex;
+    margin: auto;
+    margin-top: 1vh;
+}
+#registro {
+    font-size:small;
+    text-align: center;
+    padding: 20px;
+}
+.redes-container {
+    display: flex;
+    height: 15vh;
+    align-items:center;
+    justify-content:center;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.redes-container> ul > li{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+    text-align:center;
+}
+.redes-container> ul > li > a {
+    display: block;
+    padding: 0 10px;
+    background-color: rgb(72, 69, 69);
+    color: white;
+    line-height: 60px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.4);
+    transition: .2s;
+}
+.redes-container >ul > li a:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: rgba(128, 118, 148, 0.8);  padding: 1px;   border-radius: 2px; 
+}
